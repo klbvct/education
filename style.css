@@ -1298,8 +1298,8 @@ body > main > section.content > div > div > p > a > span {
 .contacts-form_prof {
 	padding: 40px;
 	border-radius: 20px;
-	background-color: #fff;
-	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+	background-color: #eef4ff;
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.1);
 }
 
 .contacts-form_prof h2 {
