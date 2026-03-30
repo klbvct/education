@@ -25,9 +25,7 @@
 			</div>
 			<div class="contacts__right">
 				<div class="contacts-form-wrapper">
-				    <h2 class="contacts__title">Отримай індивідуальну профорієнтаційну діагностику</h2>
-				<p class="form-price">1 700 грн <span>/ повний доступ</span></p>
-<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
+					<?php echo do_shortcode('[contact-form-7 id="89376ae" title="Контактная форма УКР" html_id="contact-form-page-contact"]'); ?>
 				</div>
 			</div>
 		</div>
