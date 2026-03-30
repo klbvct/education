@@ -1266,31 +1266,19 @@ body > main > section.content > div > div > p > a > span {
 .contacts__container {
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .contacts__left {
     width: calc(50% - 20px);
-	padding-top: 0;
+	padding-top: 40px;
 	padding-left: 60px;
-	margin-bottom: 0;
+	margin-bottom: 4rem;
 }
 
 .contacts__right {
 	padding-right: 60px;
 	width: calc(50% - 20px);
-	margin-bottom: 0;
-}
-
-/* CF7 — прибираємо порожній блок повідомлень */
-.contacts .wpcf7-response-output {
-	display: none;
-}
-.contacts .wpcf7-response-output.wpcf7-mail-sent-ok,
-.contacts .wpcf7-response-output.wpcf7-validation-errors,
-.contacts .wpcf7-response-output.wpcf7-spam-blocked {
-	display: block;
-	margin: 16px 0 0 0;
+	margin-bottom: 4rem;
 }
 
 .contacts__title {
@@ -2369,13 +2357,12 @@ p.home-banner__bold {
 	}
 
 	.contacts {
-		padding: var(--grid-gap) 0;
+		padding-top: var(--grid-gap);
 	}
 
 	.contacts__left {
 		width: 100% !important;
 		padding: var(--grid-gap) !important;
-		margin-bottom: var(--grid-gap) !important;
 	}
 
 	.contacts__right {
