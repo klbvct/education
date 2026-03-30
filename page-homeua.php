@@ -256,7 +256,7 @@
 			<div class="items">
 				<div class="item">
 					<div class="cost"><span>2500</span> гривень / консультація</div>
-					<h3>Експрес-консультація</h3>
+					<h3>Профорієнтаційне тестування</h3>
 					<p>Ви визначилися з напрямком навчання
 					і точно знаєте, яка професія вас цікавить. Бажаєте:</p>
 					<ul>
@@ -285,11 +285,7 @@
 							<p>про можливість вивчення даної професії за кордоном або стажування</p>
 						</li>
 					</ul>
-					<form action="https://education-design.com.ua/contacts">
-					    <button class="reg-form__btn form-btn btn-reset popmake-483">
-    						<span>Замовити</span>
-    					</button>
-					</form>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
 				</div>
 				<div class="item--blue">
 					<div class="cost"><span>4200</span> гривень / консультація</div>
