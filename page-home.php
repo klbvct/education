@@ -255,8 +255,8 @@
 			<h2>Стоимость</h2>
 			<div class="items">
 				<div class="item">
-					<div class="cost"><span>2500</span> гривен / консультация</div>
-					<h3>Экспресс консультация</h3>
+					<div class="cost"><span>1700</span> гривен</div>
+					<h3>Тестирование</h3>
 					<p>Вы определились с направлением обучения
 						и точно знаете какая профессия вас интересует. Хотите:</p>
 					<ul>
@@ -285,11 +285,7 @@
 							<p>о возможности изучения данной профессии за границей или стажировки</p>
 						</li>
 					</ul>
-					<form action="https://education-design.com.ua/contacts">
-					    <button class="reg-form__btn form-btn btn-reset popmake-254">
-    						<span>Заказать</span>
-    					</button>
-					</form>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Начать тестирование</a>
 				</div>
 				<div class="item--blue">
 					<div class="cost"><span>4200</span> гривен / консультация</div>
@@ -298,7 +294,7 @@
 					<ul>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Проводим комплексную диагностику профессиональных способностей">
-							<p>проводим тестирование, комплексную диагностику профессиональных способностей</p>
+							<p>анализ профессиональных способностей</p>
 						</li>
 						<li>
 							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Определяем ваши сильные стороны и их эффективность">
