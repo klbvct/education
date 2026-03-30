@@ -26,7 +26,8 @@
 			<div class="contacts__right">
 				<div class="contacts-form-wrapper">
 				    <h2 class="contacts__title">Почни з тестування</h2>
-				<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
+				<p class="form-price">1 700 грн <span>/ повний доступ</span></p>
+<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
 				</div>
 			</div>
 		</div>

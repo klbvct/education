@@ -2102,6 +2102,20 @@ p.home-banner__bold {
     font-weight: 500;
 }
 
+.form-price {
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--accent-color);
+    margin: 0.5rem 0 1.5rem 0;
+    line-height: 1.3;
+}
+
+.form-price span {
+    font-size: 15px;
+    font-weight: 400;
+    color: #888;
+}
+
 .education__form > .education__form--right > .contacts-form_prof > h2 {
     font-size: 30px;
     font-weight: 500;
@@ -2481,6 +2495,13 @@ p.home-banner__bold {
 		grid-template-columns: repeat(1, 1fr);
 		gap: var(--grid-gap);
 	}
+	.education__form--background {
+		padding: 2.5rem 0;
+	}
+	.education__form--left h2 {
+		font-size: 28px;
+		line-height: 36px;
+	}
 	/*
     * Hamburger Menu
     */
@@ -2736,8 +2757,17 @@ p.home-banner__bold {
        display: none;
     }
     .contacts-form-wrapper {
-	padding: 30px 24px;
-}
+		padding: 30px 24px;
+	}
+    .contacts__title {
+		font-size: 24px;
+		line-height: 30px;
+		margin-bottom: 16px;
+	}
+    .form-price {
+		font-size: 20px;
+		margin: 0.25rem 0 1.25rem 0;
+	}
     .education__way > .items {
 		grid-template-columns: repeat(1, 1fr);
 	}
