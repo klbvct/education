@@ -25,7 +25,7 @@
 			</div>
 			<div class="contacts__right">
 				<div class="contacts-form-wrapper">
-				    <h2 class="contacts__title">Отримай індивідуальну профорієнтаційну діагностику</h2>
+				    <h2 class="contacts__title">Получи индивидуальную профориентационную диагностику</h2>
 				<p class="form-price">1 700 грн <span>/ повний доступ</span></p>
 <a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
 				</div>
