@@ -2493,14 +2493,15 @@ p.home-banner__bold {
 	.education__form {
 		display: grid;
 		grid-template-columns: repeat(1, 1fr);
-		gap: var(--grid-gap);
+		gap: 16px;
 	}
 	.education__form--background {
-		padding: 2.5rem 0;
+		padding: 2rem 0 3rem 0;
 	}
 	.education__form--left h2 {
 		font-size: 28px;
 		line-height: 36px;
+		margin-bottom: 0.5rem;
 	}
 	/*
     * Hamburger Menu
