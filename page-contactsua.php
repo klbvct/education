@@ -25,8 +25,7 @@
 			</div>
 			<div class="contacts__right">
 				<div class="contacts-form-wrapper">
-				    <h2 class="contacts__title blog-title">Записатися на консультацію</h2>
-				    <?php echo do_shortcode('[contact-form-7 id="89376ae" title="Контактная форма УКР" html_id="contact-form-page-contact"]'); ?>
+				    <a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
 				</div>
 			</div>
 		</div>
