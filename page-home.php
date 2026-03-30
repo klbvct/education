@@ -285,7 +285,7 @@
 							<p>о возможности изучения данной профессии за границей или стажировки</p>
 						</li>
 					</ul>
-					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Начать тестирование</a>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset" style="margin: top 2rem;">Начать тестирование</a>
 				</div>
 				<div class="item--blue">
 					<div class="cost"><span>4200</span> гривен / консультация</div>
@@ -407,7 +407,7 @@
 				<div class="contacts-form-wrapper contacts-form-wrapper__padding">
 					<h2 class="contacts__title">Получи индивидуальную профориентационную диагностику</h2>
 					<p class="form-price">1 700 грн <span>/ повний доступ</span></p>
-<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Начать тестирование</a>
+<a href="https://academy.education-design.com.ua" class="form-btn btn-reset" style="margin-top: 2rem;">Начать тестирование</a>
 				</div>
 			</div>
 		</div>
