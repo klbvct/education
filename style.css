@@ -1296,10 +1296,30 @@ body > main > section.content > div > div > p > a > span {
 }
 
 .contacts-form_prof {
-	padding: 40px 40px;
+	padding: 40px;
 	border-radius: 20px;
-	background-color: #ebd38480;
-	/* max-height: 460px; */
+	background-color: #fff;
+	box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
+}
+
+.contacts-form_prof h2 {
+	font-size: 26px;
+	font-weight: 500;
+	line-height: 34px;
+	margin: 0 0 16px 0;
+}
+
+.contacts-form_prof h3 {
+	font-size: 22px;
+	font-weight: 600;
+	color: var(--accent-color);
+	margin: 0 0 24px 0;
+	line-height: 1.3;
+}
+
+.callback-form__btn {
+	display: flex;
+	width: 100%;
 }
 
 .phone--contacts {
@@ -2825,7 +2845,7 @@ p.home-banner__bold {
 	} */
 	
 	.contacts-form_prof {
-		padding: 20px;
+		padding: 30px 24px;
 	}
 
 	.contacts__right {
