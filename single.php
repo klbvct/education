@@ -138,7 +138,7 @@ get_header();
 											<div class="contacts-form-wrapper contacts-form-wrapper__padding">
 											<h2 class="contacts__title"><?php echo (strpos($_SERVER['REQUEST_URI'], '/ru/') !== false) ? 'Получи индивидуальную профориентационную диагностику' : 'Отримай індивідуальну профорієнтаційну діагностику'; ?></h2>
 											<p class="form-price">1 700 грн <span>/ повний доступ</span></p>
-<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
+<a href="https://academy.education-design.com.ua" class="form-btn btn-reset"><?php echo (strpos($_SERVER['REQUEST_URI'], '/ru/') !== false) ? 'Начать тестирование' : 'Розпочати тестування'; ?></a>
 											</div>
 										</div>
 									</div>
