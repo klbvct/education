@@ -285,7 +285,7 @@
 							<p>про можливість вивчення даної професії за кордоном або стажування</p>
 						</li>
 					</ul>
-					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset" style="margin-top: 2rem;">Розпочати тестування</a>
 				</div>
 				<div class="item--blue">
 					<div class="cost"><span>4200</span> гривень / консультація</div>
