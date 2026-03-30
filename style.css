@@ -2068,23 +2068,25 @@ p.home-banner__bold {
 /*зписаться на консультацию*/
 .education__form--background {
     background: url(./img/background_form.png) no-repeat;
-    -moz-background-size: cover; /* Firefox 3.6+ */
-    -webkit-background-size: cover; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: cover; /* Opera 9.6+ */
-    background-size: cover; /* Современные браузеры */
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 4rem 0;
 }
 
 .education__form {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--grid-gap);
+    align-items: center;
 }
 
 .education__form--left h2 {
     color: white;
     font-size: 36px;
     font-weight: 500;
-    padding: 2rem 0 1rem 0;
+    margin: 0 0 1rem 0;
     line-height: 46px;
 }
 
@@ -2092,6 +2094,7 @@ p.home-banner__bold {
     color: white;
     line-height: 24px;
     max-width: 390px;
+    margin: 0;
 }
 
 .education__form > .education__form--right > .contacts-form-wrapper > h2 {
@@ -2256,8 +2259,8 @@ p.home-banner__bold {
 }
 
 .contacts-form-wrapper__padding {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .reg-form__btn--blue {
@@ -2733,7 +2736,7 @@ p.home-banner__bold {
        display: none;
     }
     .contacts-form-wrapper {
-	padding: 20px 40px 0px 40px;
+	padding: 30px 24px;
 }
     .education__way > .items {
 		grid-template-columns: repeat(1, 1fr);
