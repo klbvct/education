@@ -2829,7 +2829,7 @@ p.home-banner__bold {
 	}
 
 	.contacts__right {
-	    padding: 0 0 2rem 0 !important;
+	    padding: 0 16px 2rem 16px !important;
 	}
 	
 	.post img {
