@@ -335,7 +335,7 @@
 				</div>
 				<div class="item">
 					<div class="card-header">
-						<div class="cost"><span>1700</span> гривень</div>
+						<div class="cost"><span>2500</span> гривень</div>
 						<h3>Консультація</h3>
 					</div>
 					<ul>

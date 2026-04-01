@@ -255,107 +255,121 @@
 			<h2>Стоимость</h2>
 			<div class="items">
 				<div class="item">
-					<div class="cost"><span>1700</span> гривен</div>
-					<h3>Тестирование</h3>
-					<p>Вы определились с направлением обучения
-						и точно знаете какая профессия вас интересует. Хотите:</p>
+					<div class="card-header">
+						<div class="cost"><span>1700</span> гривень</div>
+						<h3>Тестирование</h3>
+					</div>
 					<ul>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Получить информацию об актуальности выбранной профессии">
-							<p>получить информацию об актуальности выбранной профессии</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Отримати інформацію про актуальність обраної професії">
+							<p>не определились с направлением обучения</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="О всех вариантах и длительности обучения">
-							<p>о всех вариантах и длительности обучения</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про всі варіанти та тривалість навчання">
+							<p>не знаете, какая сфера подходит вам больше всего для дальнейшего образования</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="О требованиях ВУЗа и конкурсе">
-							<p>о требованиях ВУЗа и конкурсе</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про вимоги ВНЗ та конкурс">
+							<p>не понимаете свои сильные стороны, способности и задатки</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="О возможностях комбинирования навыков в пределах выбранного направления">
-							<p>о возможностях комбинирования навыков в пределах выбранного направления</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про можливості комбінування навичок у межах обраного напрямку">
+							<p>хотелось бы получить полную картину ваших образовательных перспектив</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="О перспективах трудоустройства">
-							<p>о перспективах трудоустройства</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про перспективи працевлаштування">
+							<p>сомневаетесь между несколькими вариантами и не можете выбрать</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="О возможности изучения данной профессии за границей или стажировки">
-							<p>о возможности изучения данной профессии за границей или стажировки</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про можливість вивчення даної професії за кордоном або стажування">
+							<p>боитесь ошибиться с выбором специальности</p>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Про можливість вивчення даної професії за кордоном або стажування">
+							<p>не понимаете, как ваши интересы связаны с будущим образованием</p>
 						</li>
 					</ul>
-					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset" style="margin: top 2rem;">Начать тестирование</a>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Начать тестирование</a>
 				</div>
 				<div class="item--blue">
-					<div class="cost"><span>4200</span> гривен / консультация</div>
-					<h3>Дизайн Образования</h3>
-					<p>Вы не знаете куда поступать и у вас нет четкого понимания какую профессию вы хотели бы выбрать</p>
+					<div class="card-header">
+						<div class="cost"><span>4200</span> гривень / консультация</div>
+						<h3>Дизайн Образования</h3>
+						<p class="price-tag">тестирование + консультация</p>
+					</div>
 					<ul>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Проводим комплексную диагностику профессиональных способностей">
-							<p>анализ профессиональных способностей</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Проводимо комплексну діагностику професійних здібностей">
+							<p>хотите индивидуально спроектированную образовательную стратегию</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Определяем ваши сильные стороны и их эффективность">
-							<p>определяем ваши сильные стороны и их эффективность</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Визначаємо ваші сильні сторони та їх ефективність">
+							<p>важно получить индивидуальный план обучения</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Формируем ваш индивидуальный Дизайн Образования">
-							<p>формируем ваш индивидуальный Дизайн Образования</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Формуємо ваш індивідуальний Дизайн Освіти">
+							<p>нужно пройти профориентационное тестирование и понять, как применить результаты</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Создаем индивидуальный трек обучения: что учить, где учить, как долго">
-							<p>создаем индивидуальный трек обучения: что учить, где учить, как долго</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Створюємо індивідуальний трек навчання: що вчити, де вчити, як довго">
+							<p>хотите объединить свои интересы, способности и реальные возможности</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Готовим стратегию поступления, опираясь на перспективы и актуальности профессии">
-							<p>готовим стратегию поступления, опираясь на перспективы и актуальности профессии</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Готуємо стратегію надходження, спираючись на перспективи та актуальність професії">
+							<p>рассматриваете разные страны или форматы обучения и не можете определиться</p>
 						</li>
 						<li>
-							<img src="" alt="">
-							<p></p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Готуємо стратегію надходження, спираючись на перспективи та актуальність професії">
+							<p>хотите понять, какой путь будет наиболее эффективным именно для вас</p>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-2.svg" alt="Готуємо стратегію надходження, спираючись на перспективи та актуальність професії">
+							<p>хотите избежать ошибок и лишних затрат времени и ресурсов</p>
 						</li>
 					</ul>
 					<form action="https://education-design.com.ua/contacts">
-    					<button class="reg-form__btn--blue btn-reset popmake-254">
+    					<button class="reg-form__btn--blue btn-reset popmake-483">
     						<span>Заказать</span>
     					</button>
 					</form>
 				</div>
 				<div class="item">
-					<div class="cost"><span>Индивидуально</span></div>
-					<h3>Дизайн Карьеры</h3>
-					<p>У вас есть базовое образование, возможно не одно. Вы закончили бакалаврат
-						или у вас есть опыт профессиональной деятельности</p>
+					<div class="card-header">
+						<div class="cost"><span>2500</span> гривень</div>
+						<h3>Консультация</h3>
+					</div>
 					<ul>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Не знаете что делать дальше">
-							<p>не знаете что делать дальше</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Не знаєте що робити далі">
+							<p>определились с направлением обучения и специальностью</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Ваша работа больше не устраивает вас">
-							<p>ваша работа больше не устраивает вас</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Ваша робота більше не влаштовує вас">
+							<p>сложно выбрать между несколькими университетами</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Вы не понимаете как скомбинировать ваши навыки и знания">
-							<p>вы не понимаете как скомбинировать ваши навыки и знания, чтобы они стали актуальными на рынке труда</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Ви не розумієте як скомбінувати ваші навички та знання">
+							<p>хотите оценить реальные перспективы образования в разных странах</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Хотите развиваться профессионально, но не знаете как">
-							<p>хотите развиваться профессионально, но не знаете как</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Хочете розвиватися професійно, але не знаєте як">
+							<p>не понимаете, какой язык обучения будет оптимальным</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Вам нужен карьерный коучинг">
-							<p>вам нужен карьерный коучинг</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Вам потрібен кар'єрний коучинг">
+							<p>не уверены, какой вариант даст лучшие карьерные возможности</p>
 						</li>
 						<li>
-							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Хотите составить эффективное резюме">
-							<p>хотите составить эффективное резюме</p>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Хочете скласти ефективне резюме">
+							<p>нужно понять требования к поступлению и шансы на зачисление</p>
+						</li>
+						<li>
+							<img src="<?php echo get_template_directory_uri(); ?>/img/check-circle-1.svg" alt="Хочете скласти ефективне резюме">
+							<p>хотите заранее спланировать образовательный путь</p>
 						</li>
 					</ul>
 					<form action="https://education-design.com.ua/contacts">
-    					<button class="reg-form__btn form-btn btn-reset popmake-254">
+    					<button class="reg-form__btn form-btn btn-reset popmake-483">
     						<span>Заказать</span>
     					</button>
 					</form>
