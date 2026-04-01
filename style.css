@@ -2521,6 +2521,9 @@ p.home-banner__bold {
     .education__price > .items > .item > a.form-btn {
         margin-top: 2rem;
     }
+    .education__price .card-header {
+        min-height: 0;
+    }
 
 	.blog-post--main {
 		height: auto;
