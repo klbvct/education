@@ -255,8 +255,10 @@
 			<h2>Вартість</h2>
 			<div class="items">
 				<div class="item">
-					<div class="cost"><span>1700</span> гривень</div>
-					<h3>Тестування</h3>
+					<div class="card-header">
+						<div class="cost"><span>1700</span> гривень</div>
+						<h3>Тестування</h3>
+					</div>
 					<p>Ви визначилися з напрямком навчання
 					і точно знаєте, яка професія вас цікавить. Бажаєте:</p>
 					<ul>
@@ -289,12 +291,14 @@
 							<p>не розумієте, як ваші інтереси пов’язані з майбутньою освітою</p>
 						</li>
 					</ul>
-					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset" style="margin-top: 2rem;">Розпочати тестування</a>
+					<a href="https://academy.education-design.com.ua" class="form-btn btn-reset">Розпочати тестування</a>
 				</div>
 				<div class="item--blue">
-					<div class="cost"><span>4200</span> гривень / консультація</div>
-					<h3>Дизайн Освіти</h3>
-					<p>тестування + консультація</p>
+					<div class="card-header">
+						<div class="cost"><span>4200</span> гривень / консультація</div>
+						<h3>Дизайн Освіти</h3>
+						<p class="price-tag">тестування + консультація</p>
+					</div>
 					<p>Ви не знаєте куди вступати і у вас немає чіткого розуміння, яку професію ви хотіли б вибрати</p>
 					<ul>
 						<li>
@@ -333,8 +337,10 @@
 					</form>
 				</div>
 				<div class="item">
-					<div class="cost"><span>1700</span> гривень</div>
-					<h3>Консультація</h3>
+					<div class="card-header">
+						<div class="cost"><span>1700</span> гривень</div>
+						<h3>Консультація</h3>
+					</div>
 					<p>У вас є базова освіта, можливо, не одна. Ви закінчили бакалаврат
 					або у вас є досвід професійної діяльності</p>
 					<ul>

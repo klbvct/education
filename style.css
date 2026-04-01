@@ -522,6 +522,8 @@ span.accent {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center;
+	box-sizing: border-box;
 }
 
 .form-btn span {
@@ -2199,19 +2201,23 @@ p.home-banner__bold {
     box-shadow: 4px 8px 40px rgba(8, 24, 111, 0.2);
     border-radius: 20px;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
 }
 
 .education__price > .items > .item > p {
     font-size: 16px;
 }
 
-.education__price > .items > .item > .cost > span {
+.education__price > .items > .item > .cost > span,
+.education__price > .items > .item > .card-header > .cost > span {
     font-size: 36px;
     font-weight: 500;
     margin-right: 1rem;
 }
 
-.education__price > .items > .item > h3 {
+.education__price > .items > .item > h3,
+.education__price > .items > .item > .card-header > h3 {
     font-weight: 500;
     font-size: 28px;
     color: #0c68f5;
@@ -2238,8 +2244,10 @@ p.home-banner__bold {
     font-size: 16px;
 }
 
-.education__price > .items > .item > form {
-    margin-top: 2rem;
+.education__price > .items > .item > form,
+.education__price > .items > .item > a.form-btn {
+    margin-top: auto;
+    padding-top: 0;
 }
 
 .education__price > .items > .item--blue {
@@ -2256,17 +2264,38 @@ p.home-banner__bold {
     color: white;
 }
 
-.education__price > .items > .item--blue > .cost > span {
+.education__price > .items > .item--blue > .cost > span,
+.education__price > .items > .item--blue > .card-header > .cost > span {
     font-size: 36px;
     font-weight: 500;
     margin-right: 1rem;
     color: white;
 }
 
-.education__price > .items > .item--blue > h3 {
+.education__price > .items > .item--blue > h3,
+.education__price > .items > .item--blue > .card-header > h3 {
     font-weight: 500;
     font-size: 28px;
     color: white;
+    margin-bottom: 0.4rem;
+}
+
+.education__price .card-header {
+    min-height: 175px;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.education__price .item--blue .card-header {
+    border-bottom-color: rgba(255, 255, 255, 0.2);
+}
+
+.education__price .price-tag {
+    display: inline-block;
+    font-size: 13px !important;
+    color: #ffffff !important;
+    margin: 0 0 1rem 0;
 }
 
 .education__price > .items > .item--blue > ul {
@@ -2291,7 +2320,8 @@ p.home-banner__bold {
 }
 
 .education__price > .items > .item--blue > form {
-    margin-top: 2rem;
+    margin-top: auto;
+    padding-top: 2rem;
 }
 
 .contacts-form-wrapper__padding {
@@ -2487,6 +2517,11 @@ p.home-banner__bold {
 		--grid-gap: 30px;
 	}
 
+    .education__price > .items > .item > form,
+    .education__price > .items > .item > a.form-btn {
+        margin-top: 2rem;
+    }
+
 	.blog-post--main {
 		height: auto;
 	}
@@ -2524,6 +2559,21 @@ p.home-banner__bold {
 		font-size: 28px;
 		line-height: 36px;
 		margin-bottom: 0.5rem;
+	}
+	.reg-form__btn--blue {
+		width: 100%;
+		border-radius: 20px;
+		height: 50px;
+		background-color: white;
+		font-family: 'Futura PT',
+			sans-serif;
+		font-weight: 400;
+		font-size: 18px;
+		line-height: 23px;
+		color: var(--accent-color);
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 	/*
     * Hamburger Menu
