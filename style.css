@@ -2560,21 +2560,7 @@ p.home-banner__bold {
 		line-height: 36px;
 		margin-bottom: 0.5rem;
 	}
-	.reg-form__btn--blue {
-		width: 100%;
-		border-radius: 20px;
-		height: 50px;
-		background-color: white;
-		font-family: 'Futura PT',
-			sans-serif;
-		font-weight: 400;
-		font-size: 18px;
-		line-height: 23px;
-		color: var(--accent-color);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
+
 	/*
     * Hamburger Menu
     */
