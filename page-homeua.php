@@ -293,7 +293,7 @@
 				</div>
 				<div class="item--blue">
 					<div class="card-header">
-						<div class="cost"><span>4200</span> гривень / консультація</div>
+						<div class="cost"><span>5200</span> гривень / консультація</div>
 						<h3>Дизайн Освіти</h3>
 						<p class="price-tag">тестування + консультація</p>
 					</div>
@@ -335,7 +335,7 @@
 				</div>
 				<div class="item">
 					<div class="card-header">
-						<div class="cost"><span>2500</span> гривень</div>
+						<div class="cost"><span>3500</span> гривень</div>
 						<h3>Консультація</h3>
 					</div>
 					<ul>
