@@ -2916,3 +2916,25 @@ p.home-banner__bold {
     }
     
 }
+
+/* reCAPTCHA v3 — скрыть значок (уведомление добавлено в формы вручную) */
+.grecaptcha-badge {
+    visibility: hidden;
+}
+
+/* Уведомление reCAPTCHA под формой */
+.recaptcha-notice {
+    margin-top: 0.75rem;
+    font-size: 0.7rem;
+    color: #aaa;
+    line-height: 1.4;
+}
+
+.recaptcha-notice a {
+    color: #aaa;
+    text-decoration: underline;
+}
+
+.recaptcha-notice a:hover {
+    color: #888;
+}

@@ -27,6 +27,7 @@
 				<div class="contacts-form-wrapper">
 					<?php echo do_shortcode('[contact-form-7 id="89376ae" title="Контактная форма УКР" html_id="contact-form-page-contact"]'); ?>
 				</div>
+				<p class="recaptcha-notice">Цей сайт захищено reCAPTCHA. Застосовуються <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Політика конфіденційності</a> та <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Умови використання</a> Google.</p>
 			</div>
 		</div>
 	</section>

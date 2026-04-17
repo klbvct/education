@@ -27,6 +27,7 @@
 				<div class="contacts-form-wrapper">
 					<?php echo do_shortcode('[contact-form-7 id="52d42e5" title="Контактная форма 1" html_id="contact-form-page-contact"]'); ?>
 				</div>
+				<p class="recaptcha-notice">Этот сайт защищён reCAPTCHA. Применяются <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Политика конфиденциальности</a> и <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Условия использования</a> Google.</p>
 			</div>
 		</div>
 	</section>
